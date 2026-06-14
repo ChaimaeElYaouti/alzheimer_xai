@@ -1,9 +1,6 @@
 # AlzXAI — Un Système d'Aide à la Décision Clinique et de Classification Explicable du Continuum de la Maladie d'Alzheimer
 
-> **Projet Encadré de Master (2ème année)** > **Module :** Data Science & Explainable AI (XAI)  
-> **Institution :** Institut National de Statistique et d'Économie Appliquée (INSEA), Rabat  
-> **Auteurs :** EL YAOUTI Chaimae & ATIF Imane (Filière Ingénierie Statistique & Data Science)  
-> **Design :** Mode Clinique Futuriste Sombre  
+> **Auteurs :** EL YAOUTI Chaimae & ATIF Imane (Data Science)  
 
 ---
 
@@ -59,7 +56,7 @@ L'innovation centrale de ce système réside dans le découplage de l'opacité a
 
 ---
 
-##  Indicateurs de Performance (Test Set Hold-Out)
+### 4. Indicateurs de Performance (Test Set Hold-Out)
 
 Les résultats calculés sur le jeu de test indépendant valident la puissance de généralisation de l'architecture :
 
@@ -74,7 +71,7 @@ Les rares erreurs du modèle se concentrent exclusivement sur la frontière de t
 
 ---
 
-##  Couche d'Intelligence Artificielle Explicable (XAI Core)
+### 5. Couche d'Intelligence Artificielle Explicable (XAI Core)
 
 Le pipeline intègre un double protocole d'audit mathématique :
 1.  **Audit Macroscopique (SHAP Global) :** Un noyau `TreeExplainer` exact démontre la cohérence physiopathologique de l'apprentissage. L'atrophie de la masse cérébrale totale (`nWBV`) s'impose comme le descripteur dominant. Le graphique *Beeswarm* prouve qu'un effondrement du volume cérébral corrèle de façon causale avec l'activation de la classe `AD`.
@@ -82,7 +79,7 @@ Le pipeline intègre un double protocole d'audit mathématique :
 
 ---
 
-##  Structure du Projet sur VS Code
+### 6. Structure du Projet sur VS Code
 
 ```text
 alzheimer_xai/
@@ -103,8 +100,11 @@ alzheimer_xai/
 │   └── preprocessing.py     # Fonctions de Feature Engineering & Pipelines
 ├── requirements.txt         # Dépendances figées de production
 └── README.md                # Documentation principale du projet
+```
 
-##  Installation & Exécution en Local
+---
+
+### 7. Installation & Exécution en Local
 
 Pour auditer ou exécuter ce pipeline sur votre machine, suivez la procédure d'installation isolée :
 
@@ -125,3 +125,4 @@ pip install -r requirements.txt
 
 # 4. Lancer l'application Streamlit en local
 streamlit run app/streamlit_app.py
+```
