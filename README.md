@@ -9,7 +9,7 @@
 
 ##  Démo en Production & Accès Rapide
 L'interface applicative et le moniteur de décision clinique sont déployés sur une infrastructure cloud publique stable et accessibles instantanément :  
-👉 **Lien de la Démo en Direct :** [https://alzheimerxai-4xg626sjwcv6m6zvxphxit.streamlit.app/](https://alzheimerxai-4xg626sjwcv6m6zvxphxit.streamlit.app/)
+👉 **Lien de la Démo en Direct :** [https://alzheimerxai-j87cx2oamceperje5nsacr.streamlit.app/](https://alzheimerxai-j87cx2oamceperje5nsacr.streamlit.app/)
 
 ---
 
@@ -110,7 +110,7 @@ Pour auditer ou exécuter ce pipeline sur votre machine, suivez la procédure d'
 
 ```bash
 # 1. Cloner le dépôt du projet
-git clone [https://github.com/chaimae-elyaouti/alzheimer_xai](https://github.com/chaimae-elyaouti/alzheimer_xai)
+git clone [https://github.com/ChaimaeElYaouti/alzheimer_xai](https://github.com/ChaimaeElYaouti/alzheimer_xai)
 cd alzheimer_xai
 
 # 2. Créer un environnement virtuel propre (Python 3.11 recommandé)
